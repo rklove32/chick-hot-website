@@ -1,0 +1,383 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CHICK HOT | Spicy • Crispy • Irresistible</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #080808;
+            color: white;
+        }
+
+        header {
+            background: #050505;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ff0000;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 900;
+            color: #ffd400;
+        }
+
+        .logo span {
+            color: red;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd400;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background:
+                radial-gradient(circle at center, #550000, #080808 65%);
+        }
+
+        .hero h1 {
+            font-size: 70px;
+            font-weight: 900;
+        }
+
+        .hero h1 span {
+            color: #ffd400;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin: 20px 0;
+            color: #ddd;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ffd400;
+            color: #000;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn.red {
+            background: red;
+            color: white;
+        }
+
+        section {
+            padding: 60px 8%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 40px;
+        }
+
+        .title span {
+            color: #ffd400;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #151515;
+            border: 1px solid #ff0000;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .price {
+            color: #ffd400;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .why {
+            background: #ffd400;
+            color: #000;
+            text-align: center;
+        }
+
+        .why-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .why-item {
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .about {
+            text-align: center;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        footer {
+            background: #030303;
+            text-align: center;
+            padding: 30px;
+            border-top: 2px solid red;
+        }
+
+        footer span {
+            color: #ffd400;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 8px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <span>CHICK</span> HOT 🍗
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#location">Location</a>
+    </nav>
+
+</header>
+
+
+<section class="hero" id="home">
+
+    <div>
+
+        <h1>
+            CHICK <span>HOT</span>
+        </h1>
+
+        <p>
+            SPICY • CRISPY • IRRESISTIBLE
+        </p>
+
+        <p>
+            Real Chicken. Real Spice. 🔥
+        </p>
+
+        <a class="btn" href="#menu">
+            VIEW MENU
+        </a>
+
+        <a class="btn red"
+           href="https://wa.me/"
+           target="_blank">
+            ORDER ON WHATSAPP
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="menu">
+
+    <h2 class="title">
+        OUR <span>MENU</span>
+    </h2>
+
+    <div class="menu">
+
+        <div class="card">
+            <h3>ICONIC POPCORN CHICKEN</h3>
+            <p class="price">₹30</p>
+        </div>
+
+        <div class="card">
+            <h3>FRIED CHICKEN "WONG'S"</h3>
+            <p>2 Pieces</p>
+            <p class="price">₹69</p>
+        </div>
+
+        <div class="card">
+            <h3>FRIED CHICKEN LEG PIECES</h3>
+            <p>2 Pieces</p>
+            <p class="price">₹89</p>
+        </div>
+
+        <div class="card">
+            <h3>FRIED CHICKEN LOLLIPOP</h3>
+            <p>4 Pieces</p>
+            <p class="price">₹89</p>
+        </div>
+
+        <div class="card">
+            <h3>FRIED CHICKEN BURGER</h3>
+            <p class="price">₹89</p>
+        </div>
+
+        <div class="card">
+            <h3>FRIED CHICKEN ROLL</h3>
+            <p class="price">₹99</p>
+        </div>
+
+        <div class="card">
+            <h3>CHICK HOT SPECIAL CHICKEN MIXTURE ROLL</h3>
+            <p class="price">₹89</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="why">
+
+    <h2 class="title">
+        WHY CHICK HOT?
+    </h2>
+
+    <div class="why-box">
+
+        <div class="why-item">
+            🍗<br>
+            FRESH CHICKEN
+        </div>
+
+        <div class="why-item">
+            🔥<br>
+            SPICY FLAVOURS
+        </div>
+
+        <div class="why-item">
+            🛡️<br>
+            HYGIENIC
+        </div>
+
+        <div class="why-item">
+            ⭐<br>
+            GREAT TASTE
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+
+    <h2 class="title">
+        ABOUT <span>CHICK HOT</span>
+    </h2>
+
+    <div class="about">
+
+        <p>
+            CHICK HOT is a fried chicken spot serving
+            hot, crispy and flavourful chicken.
+        </p>
+
+        <p>
+            Our goal is simple —
+            great taste, great value and unforgettable spice. 🔥
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="location">
+
+    <h2 class="title">
+        FIND <span>US</span>
+    </h2>
+
+    <div class="about">
+
+        <p>
+            📍 Theni, Tamil Nadu – 625531
+        </p>
+
+        <br>
+
+        <a class="btn red"
+           href="https://www.google.com/maps/search/?api=1&query=Theni,Tamil+Nadu"
+           target="_blank">
+            GET DIRECTIONS
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    © 2026 <span>CHICK HOT</span>
+
+    <br><br>
+
+    Spicy • Crispy • Irresistible 🍗🔥
+
+</footer>
+
+</body>
+</html>
+    
