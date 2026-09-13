@@ -230,6 +230,15 @@ section{
 }
 
 .contact-box{
+    <div class="contact-buttons">
+  <a href="https://wa.me/919360230853" class="whatsapp-btn">
+    🟢 WhatsApp Us
+  </a>
+
+  <a href="tel:+919360230853" class="call-btn">
+    📞 Call Now
+  </a>
+</div>
     max-width:600px;
     margin:auto;
     text-align:center;
